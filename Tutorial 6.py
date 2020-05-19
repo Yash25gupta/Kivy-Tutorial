@@ -4,8 +4,6 @@ from kivy.uix.floatlayout import FloatLayout
 from kivy.uix.widget import Widget
 from kivy.properties import ObjectProperty
 
-# sd
-
 
 class My6App(App):
     def build(self):
