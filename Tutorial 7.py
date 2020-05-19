@@ -5,6 +5,7 @@ from kivy.properties import ObjectProperty
 
 # this is a comment
 # comment 2
+# dgf
 
 
 class Touch(Widget):
@@ -20,6 +21,9 @@ class Touch(Widget):
     def on_touch_up(self, touch):
         print("mouse up", touch)
         self.btn.opacity = 1
+
+
+print("yash")
 
 
 class My7App(App):
